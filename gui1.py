@@ -19,10 +19,6 @@ entry1 = tk.Entry (root)
 canvas1.create_window(200, 140, window=entry1)
 
 def translatethindi():
-    try:
-        pack_forget()
-    except:
-        pass
         
     txt = entry1.get()
     translator = Translator()
